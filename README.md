@@ -6,10 +6,12 @@ GCO is a simple GUI's library which simplifies the creation of simple/basic Wind
 
 * **Old Win32 Visual Interface Design**: Create your Windows UI by dragging and dropping elements, customizing their appearance and properties in a user-friendly environment.
 * **No Code Required**: Design complex interfaces without needing to write any C code. GCO handles the underlying Win32 API calls for you
-* **Resource Loading**: GCO saves your designs in a `.gco` file, which can be loaded as a resource in your application's code . This allows you to easily recreate your UI at runtime.
+* **Resource Loading**: GCOWIN32 saves your designs in a `.gco` file, which can be loaded as a resource in your application's code . This allows you to easily recreate your UI at runtime.
 * **Customization**: Full control over the look and feel of your interface with options for colors, fonts, and element properties.
+* **Create windows with Menu options**: GCOWIN32 Allows you to create windows with menu options .
 
-## How to Use
+  
+## How to Use GCOWIN32 GUI APP
 
 1. **Design your interface**: Use the GCO editor app to create your window, add elements, and customize their appearance.
 2. **Export to .gco file**: Save your design as a `.gco` file.
@@ -25,8 +27,10 @@ GCO is a simple GUI's library which simplifies the creation of simple/basic Wind
 ## Releases
 
 GCO is distributed as source-code, and setup executable for both x86 and x64 architecture
+
 ## Contributing/Suggestion/advice
 Contributions are welcome! Please feel free to submit pull requests or open issues to report bugs or suggest new features.
+We can clearly agree with the fact that the source code isn't really well structured. We are working on.Any advice is welcome.
 
 ## SOME IMAGES OF GCO's INTERFACE and GCO Products
 
