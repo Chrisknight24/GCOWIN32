@@ -26,7 +26,7 @@ GCO is distributed as source-code, and setup executable for both x86 and x64 arc
 Contributions are welcome! Please feel free to submit pull requests or open issues to report bugs or suggest new features.
 
 ## SOME IMAGES OF GCO's INTERFACE and GCO Products
- **This Simple winodws app, manitext(text extractor) has been done using GCOWIN32 for GUI and win32 API for the rest.**
+ **This Simple windows app, manitext(text extractor) has been done using GCOWIN32 for GUI and win32 API for the rest.**
  ![Example of windows app done using GCOWIN32 GUI](images/Fiveer2.JPG)
 
  **This is setting control's zone for a static-class control in GCO GUI APP.User manually designs styles, fonts and colors, before create and dragging this object.**
