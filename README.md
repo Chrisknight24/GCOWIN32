@@ -14,18 +14,22 @@ GCO is a simple GUI's library which simplifies the creation of simple/basic Wind
 1. **Design your interface**: Use the GCO editor app to create your window, add elements, and customize their appearance.
 2. **Export to .gco file**: Save your design as a `.gco` file.
 3. **Load the .gco resource**: Include the `.gco` file as a resource in your IDE and load it through GCO functions  at runtime to create your interface.
+4. **You will need to link to project with libGCO_LIB.a**
 
 ## Installation
+
 1. **recompile source code using CmakeList.txt**
 2. **Download the appropriate release And run setup**: Go to the [Releases] page and download the setup executable for your system (x86 or x64).
 
 
 ## Releases
+
 GCO is distributed as source-code, and setup executable for both x86 and x64 architecture
 ## Contributing/Suggestion/advice
 Contributions are welcome! Please feel free to submit pull requests or open issues to report bugs or suggest new features.
 
 ## SOME IMAGES OF GCO's INTERFACE and GCO Products
+
  **This Simple windows app, manitext(text extractor) has been done using GCOWIN32 for GUI and win32 API for the rest.**
  ![Example of windows app done using GCOWIN32 GUI](images/Fiveer2.JPG)
 
@@ -38,14 +42,18 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
    **With GCOWIN32,you can also create simple windows with menu options**
    ![A simple window with menu option](images/Capture5.JPG)
 
- **An example of main() source code, for Displaying a creation done in GCO App, and stored in "1.gco" 's file. You will also need to link your project with gco static libray**
+ ** An example of main() source code, for Displaying a creation done in GCO App, and stored in "1.gco" 's file. You will also need to link your project with gco static library**
    ![A main function look like](images/source_code.JPG)
 
-   **A window procedure which is managing your window created isn't too deferent than default win32's model. The big difference is that, you won't manually creating every control yourself.All is done through GCO's DisplayDIsplay() function in main based on .gco's file. **
+   **A window procedure which is managing your window created isn't too deferent than default win32's model. The big difference is that, you won't manually creating every control yourself.All is done through GCO's DisplayDIsplay() function in main based on .gco's file.**
    ![An exemple of GcoProc](images/Capture8.JPG)
+   
    **For adding a .gco's file in your project as resource. We are in a .rc file's.**
-   ![Declare a .gco's file as resource](images/rc_Condig.JPG)
+   ![Declare a .gco's file as resource](images/rc_Config.JPG)
+
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## Contact
+
 edouardochristian4@gmail.com
