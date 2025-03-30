@@ -1,0 +1,7 @@
+#include "resource.h"
+#include "OpenDialogBox.h"
+#include <afxres.h>
+
+IDB_STOP BITMAP DISCARDABLE "stopbmp.bmp"
+IDB_RUN BITMAP DISCARDABLE "run.bmp"
+GCO ICON DISCARDABLE "GCO2.ico"

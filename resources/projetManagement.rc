@@ -1,0 +1,38 @@
+#include "manageProjet.h"
+#include <afxres.h>
+
+IDD_NEW_PROJET DIALOGEX 0, 0, 250, 90
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "New project"
+FONT 10, "MS Sans Serif"
+BEGIN
+
+    LTEXT   "Projet Title:", IDS_PROJET_NAME, 10, 8,60,14
+    CONTROL "",IDE_PROJET_NAME,"edit",WS_CHILD|WS_VISIBLE|WS_BORDER|ES_AUTOHSCROLL,65,6,150,12
+
+    LTEXT   "Create In:", IDS_PROJET_FOLDER_NAME, 10, 26,60,14
+    CONTROL "",IDE_PROJET_FOLDER_NAME,"edit",WS_CHILD|WS_VISIBLE|WS_BORDER|ES_AUTOHSCROLL,65,24,130,12
+    CONTROL "...",IDB_SELPATH,"button",WS_CHILD|WS_VISIBLE|BS_PUSHBUTTON,196,24,19,12
+
+    LTEXT   "Projet FileName:", IDS_PROJET_FILE_NAME, 10, 44,60,14
+    CONTROL "",IDE_PROJET_FILE_NAME,"edit",WS_CHILD|WS_VISIBLE|WS_BORDER|ES_AUTOHSCROLL,65,42,150,12
+
+     DEFPUSHBUTTON   "&Finish", ID_FINISH, 130, 70, 40, 14,WS_GROUP
+    PUSHBUTTON      "&Cancel", IDCANCEL, 87, 70, 40, 14
+END
+
+
+IDD_SETDEFOUTPUT DIALOGEX 0, 0, 250, 90
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Define's file"
+FONT 10, "MS Sans Serif"
+BEGIN
+
+    LTEXT   "Specify a  foder   where GDODEF.h which contains definitions of all objects for this project, will be created.All the iDs of objects created will be defined like: <#define NAMIEID valueId>.You will use this file on your IDE for managing easily, all the objects created with this app.", ID_STATIC, 10, 8,234,40
+    LTEXT   "FolderPath:", ID_STATIC, 10, 55,40,14
+    CONTROL "",IDE_DEFPATH,"edit",WS_CHILD|WS_VISIBLE|WS_BORDER|ES_AUTOHSCROLL,45,53,155,12
+    CONTROL "...",IDB_SELPATH,"button",WS_CHILD|WS_VISIBLE|BS_PUSHBUTTON,201,53,19,12
+
+     DEFPUSHBUTTON   "&Finish", ID_FINISH, 130, 70, 40, 14,WS_GROUP
+    PUSHBUTTON      "&Cancel", IDCANCEL, 87, 70, 40, 14
+END

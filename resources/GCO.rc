@@ -1,0 +1,8 @@
+#include <windows.h>
+#include <afxres.h>
+
+GCO_TUTO GCOTYPE "1.gco"
+GCO_STYLES TEXT "style.txt"
+GCO_MF TEXT "mf.txt"
+GCO_DEFCOL TEXT "defcol.txt"
+
