@@ -26,7 +26,7 @@ GCO is distributed as source-code, and setup executable for both x86 and x64 arc
 Contributions are welcome! Please feel free to submit pull requests or open issues to report bugs or suggest new features.
 
 #SOME IMAGES OF GCO INTERFACE and GCO Products
- ![Example of windows app done using GCOWIN32 GUI](images/vers/Fiveer2.jpg)
+ ![Example of windows app done using GCOWIN32 GUI](images/Fiveer2.JPG)
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## Contact
