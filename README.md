@@ -31,10 +31,10 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 ## SOME IMAGES OF GCO's INTERFACE and GCO Products
 
  **This Simple windows app, manitext(text extractor) has been done using GCOWIN32 for GUI and win32 API for the rest.**
- ![Example of windows app done using GCOWIN32 GUI](images/Fiveer2.JPG)
+ ![Example of windows app done using GCOWIN32 GUI](images/Capture1.JPG)
 
  **This is setting control's zone for a static-class control in GCO GUI APP.User manually designs styles, fonts and colors, before create and dragging this object.**
-  ![Set a static control 's object ](images/Fiveer.JPG)
+  ![Set a static control 's object ](images/Capture2.JPG)
 
   **This is an exemple of window, been structured into GCO GUI APP, using drag-drop functionnalities for moving objects(edit,combo,buttons etc)**
    ![A simple window in a GCO's creation-zone](images/Capture.JPG)
