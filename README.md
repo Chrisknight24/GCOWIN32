@@ -36,21 +36,27 @@ We can clearly agree with the fact that the source code isn't really well struct
 
  **This Simple windows app, manitext(text extractor) has been done using GCOWIN32 for GUI and win32 API for the rest.**
  ![Example of windows app done using GCOWIN32 GUI](images/Capture1.JPG)
+ 
 
  **This is setting control's zone for a static-class control in GCO GUI APP.User manually designs styles, fonts and colors, before create and dragging this object.**
   ![Set a static control 's object ](images/Capture2.JPG)
 
+ 
   **This is an exemple of window, been structured into GCO GUI APP, using drag-drop functionnalities for moving objects(edit,combo,buttons etc)**
    ![A simple window in a GCO's creation-zone](images/Capture.JPG)
 
+  
    **With GCOWIN32,you can also create simple windows with menu options**
    ![A simple window with menu option](images/Capture5.JPG)
 
+ 
  ** An example of main() source code, for Displaying a creation done in GCO App, and stored in "1.gco" 's file. You will also need to link your project with gco static library**
    ![A main function look like](images/source_code.JPG)
 
+ 
    **A window procedure which is managing your window created isn't too deferent than default win32's model. The big difference is that, you won't manually creating every control yourself.All is done through GCO's DisplayDIsplay() function in main based on .gco's file.**
    ![An exemple of GcoProc](images/Capture8.JPG)
+   
    
    **For adding a .gco's file in your project as resource. We are in a .rc file's.**
    ![Declare a .gco's file as resource](images/rc_Config.JPG)
@@ -59,5 +65,4 @@ We can clearly agree with the fact that the source code isn't really well struct
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## Contact
-
 edouardochristian4@gmail.com
