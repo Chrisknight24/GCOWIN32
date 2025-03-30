@@ -1,6 +1,6 @@
 # GCOWIN32 (Graphic Creation Object WIN32)
-n windows wi
-GCO is a GUI library which simplifies the creation of simple/basic Windows interfaces and controls using the Win32 API for c/c++ win32 developers. With GCO, you can visually design buttons, edit boxes, combo boxes, colors, and fonts without writing a single line of code, and then Load your creation into a c/c++ win32 's code.
+
+GCO is a simple GUI's library which simplifies the creation of simple/basic Windows interfaces and controls using the Win32 API for c/c++ win32 developers. With GCO, you can visually design buttons, edit boxes, combo boxes, colors, and fonts without writing a single line of code, and then Load your creation into a c/c++ win32 's code.
 
 ## Features
 
