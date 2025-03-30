@@ -14,7 +14,7 @@ GCO is a simple GUI's library which simplifies the creation of simple/basic Wind
 1. **Design your interface**: Use the GCO editor app to create your window, add elements, and customize their appearance.
 2. **Export to .gco file**: Save your design as a `.gco` file.
 3. **Load the .gco resource**: Include the `.gco` file as a resource in your IDE and load it through GCO functions  at runtime to create your interface.
-4. **You will need to link to project with libGCO_LIB.a**
+4. **For using your creation in a source code, You will need to link your project with libGCO_LIB.a**
 
 ## Installation
 
