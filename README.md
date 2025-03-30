@@ -50,7 +50,7 @@ We can clearly agree with the fact that the source code isn't really well struct
    ![A simple window with menu option](images/Capture5.JPG)
 
  
- ** An example of main() source code, for Displaying a creation done in GCO App, and stored in "1.gco" 's file. You will also need to link your project with gco static library**
+ **An example of main() source code, for Displaying a creation done in GCO App, and stored in "1.gco" 's file. You will also need to link your project with gco static library**
    ![A main function look like](images/source_code.JPG)
 
  
