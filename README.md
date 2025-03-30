@@ -18,8 +18,8 @@ GCO is a simple GUI's library which simplifies the creation of simple/basic Wind
 
 ## Installation
 
-1. **recompile source code using CmakeList.txt**
-2. **Download the appropriate release And run setup**: Go to the [Releases] page and download the setup executable for your system (x86 or x64).
+1. **Recompile source code using CmakeList.txt:Executable app will need GCO's dll(x86 or x64), you will need to place it in a same folder with a .exe's program on windows**
+2. **Download the appropriate release And run setup**: Go to the [Releases] page and download the pre-release setup executable for your system (x86 or x64).
 
 
 ## Releases
